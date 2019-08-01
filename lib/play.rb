@@ -38,7 +38,9 @@ end
 # Define your play method below
 
 counter = 1 
-loop turn(board) 
+loop do turn(board) 
   counter += 1
-  break when counter >= 9 
+  if counter >= 9
+    break
+  end
 end

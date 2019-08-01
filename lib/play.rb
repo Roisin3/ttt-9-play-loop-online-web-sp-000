@@ -36,7 +36,7 @@ def turn(board)
 end
 
 # Define your play method below
-def play
+def play(board)
   counter = 1 
   loop do turn(board) 
     counter += 1
